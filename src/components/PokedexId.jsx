@@ -33,7 +33,7 @@ const PokedexId = () => {
     ghost: "#906791",
     grass: "#27cb50",
     ground: "#96662f",
-    ice: "#bcd9ea",
+    ice: "#a0c0d2",
     normal: "#ca98a6",
     poison: "#9b69da",
     psychic: "#f71d92",

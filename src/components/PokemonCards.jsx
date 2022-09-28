@@ -42,7 +42,7 @@ const PokemonCards = ({ url }) => {
         ghost: "#906791",
         grass: "#27cb50",
         ground: "#6e491f",
-        ice: "#d8f0fa",
+        ice: "#a0c0d2",
         normal: "#ca98a6",
         poison: "#9b69da",
         psychic: "#f71d92",
