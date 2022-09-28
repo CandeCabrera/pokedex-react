@@ -28,6 +28,7 @@ const UserInput = () => {
         <div className="enterName">
          <form onSubmit={dispatchName}>
          <input
+            required
             type="text"
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
