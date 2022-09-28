@@ -13,8 +13,12 @@ const UserInput = () => {
   const navigate = useNavigate();
 
   const dispatchName = () => {
-    dispatch(changeName(userName));
-    navigate("/pokedex");
+    if (userName) {
+      dispatch(changeName(userName));
+      navigate("/pokedex");
+    } else {
+      alert('Type your name to start')
+    }
   };
 
   return (
